@@ -1,0 +1,8 @@
+CP = .:classes:/opt/pi4j/lib/'*':$(HOME)/java/AllProjects/Pathfinder/src/main/java/
+
+run :
+	javac -classpath $(CP) hc-sr04.java
+	sudo java -classpath $(CP) hc-sr04
+
+
+
